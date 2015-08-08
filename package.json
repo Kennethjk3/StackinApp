@@ -1,0 +1,46 @@
+{
+  "name": "stackinapp",
+  "version": "1.0.0",
+  "description": "Week 8 Assignment",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kennethjk3/StackinApp.git"
+  },
+  "keywords": [
+    "blingbling",
+    "moneymanager",
+    "week8"
+  ],
+  "author": "Ken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kennethjk3/StackinApp/issues"
+  },
+  "homepage": "https://github.com/mcmillanator/trackin-dollaz",
+  "dependencies": {
+    "react": "^0.13.3",
+    "superagent": "^1.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "browserify-incremental": "^3.0.1",
+    "reactify": "^1.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify"
+      ]
+    ]
+  }
+}
